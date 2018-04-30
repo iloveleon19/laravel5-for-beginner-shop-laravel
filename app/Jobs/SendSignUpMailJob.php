@@ -39,7 +39,7 @@ class SendSignUpMailJob implements ShouldQueue
             function($mail) use ($mail_binding)
         {
             $mail->to($mail_binding['email']);
-            $mail->from('kejyun@gmail.com');
+            $mail->from('xebermen@gmail.com');
             $mail->subject('恭喜註冊 Shop Laravel 成功');
         });
     }
